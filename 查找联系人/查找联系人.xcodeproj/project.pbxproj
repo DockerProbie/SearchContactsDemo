@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24E842C51BF39FCE008F8ED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E842C41BF39FCE008F8ED5 /* main.m */; };
+		24E842C81BF39FCE008F8ED5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E842C71BF39FCE008F8ED5 /* AppDelegate.m */; };
+		24E842CE1BF39FCE008F8ED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E842CC1BF39FCE008F8ED5 /* Main.storyboard */; };
+		24E842D01BF39FCE008F8ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E842CF1BF39FCE008F8ED5 /* Assets.xcassets */; };
+		24E842D31BF39FCE008F8ED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E842D11BF39FCE008F8ED5 /* LaunchScreen.storyboard */; };
+		24E842E21BF3A012008F8ED5 /* UserFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E842DE1BF3A012008F8ED5 /* UserFollowViewController.m */; };
+		24E842E51BF3A03E008F8ED5 /* UserFollowSearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E842E41BF3A03E008F8ED5 /* UserFollowSearchResultViewController.m */; };
+		24E842E81BF3A05B008F8ED5 /* FollwTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E842E71BF3A05B008F8ED5 /* FollwTableViewCell.m */; };
+		24E842EB1BF3A074008F8ED5 /* FollowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E842EA1BF3A074008F8ED5 /* FollowModel.m */; };
+		24E842EE1BF3A07F008F8ED5 /* FollowGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E842ED1BF3A07F008F8ED5 /* FollowGroupModel.m */; };
+		24E843001BF3A0AB008F8ED5 /* ChineseInclude.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E842F11BF3A0AB008F8ED5 /* ChineseInclude.m */; };
+		24E843011BF3A0AB008F8ED5 /* ChineseToPinyinResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E842F31BF3A0AB008F8ED5 /* ChineseToPinyinResource.m */; };
+		24E843021BF3A0AB008F8ED5 /* HanyuPinyinOutputFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E842F51BF3A0AB008F8ED5 /* HanyuPinyinOutputFormat.m */; };
+		24E843031BF3A0AB008F8ED5 /* NSString+PinYin4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E842F71BF3A0AB008F8ED5 /* NSString+PinYin4Cocoa.m */; };
+		24E843041BF3A0AB008F8ED5 /* PinyinFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E842FA1BF3A0AB008F8ED5 /* PinyinFormatter.m */; };
+		24E843051BF3A0AB008F8ED5 /* PinYinForObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E842FC1BF3A0AB008F8ED5 /* PinYinForObjc.m */; };
+		24E843061BF3A0AB008F8ED5 /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E842FE1BF3A0AB008F8ED5 /* PinyinHelper.m */; };
+		24E843071BF3A0AB008F8ED5 /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24E842FF1BF3A0AB008F8ED5 /* unicode_to_hanyu_pinyin.txt */; };
+		24E8430B1BF3A163008F8ED5 /* UIView+MHCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E8430A1BF3A163008F8ED5 /* UIView+MHCommon.m */; };
+		24E8430E1BF3A183008F8ED5 /* CustomSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E8430D1BF3A183008F8ED5 /* CustomSearchViewController.m */; };
+		24E843111BF3A197008F8ED5 /* SearchResultHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E843101BF3A197008F8ED5 /* SearchResultHandle.m */; };
+		24E843141BF3A224008F8ED5 /* NSMutableArray+FilterElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E843131BF3A224008F8ED5 /* NSMutableArray+FilterElement.m */; };
+		24E843161BF3A2CF008F8ED5 /* FollwTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24E843151BF3A2CF008F8ED5 /* FollwTableViewCell.xib */; };
+		AD4985571BF9AF92003DE42B /* body_pic_head.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4985561BF9AF92003DE42B /* body_pic_head.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24E842C01BF39FCE008F8ED5 /* 查找联系人.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "查找联系人.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E842C41BF39FCE008F8ED5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24E842C61BF39FCE008F8ED5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24E842C71BF39FCE008F8ED5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24E842CD1BF39FCE008F8ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24E842CF1BF39FCE008F8ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24E842D21BF39FCE008F8ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24E842D41BF39FCE008F8ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E842DD1BF3A012008F8ED5 /* UserFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserFollowViewController.h; sourceTree = "<group>"; };
+		24E842DE1BF3A012008F8ED5 /* UserFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserFollowViewController.m; sourceTree = "<group>"; };
+		24E842E31BF3A03E008F8ED5 /* UserFollowSearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserFollowSearchResultViewController.h; sourceTree = "<group>"; };
+		24E842E41BF3A03E008F8ED5 /* UserFollowSearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserFollowSearchResultViewController.m; sourceTree = "<group>"; };
+		24E842E61BF3A05B008F8ED5 /* FollwTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollwTableViewCell.h; sourceTree = "<group>"; };
+		24E842E71BF3A05B008F8ED5 /* FollwTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollwTableViewCell.m; sourceTree = "<group>"; };
+		24E842E91BF3A074008F8ED5 /* FollowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowModel.h; sourceTree = "<group>"; };
+		24E842EA1BF3A074008F8ED5 /* FollowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowModel.m; sourceTree = "<group>"; };
+		24E842EC1BF3A07F008F8ED5 /* FollowGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowGroupModel.h; sourceTree = "<group>"; };
+		24E842ED1BF3A07F008F8ED5 /* FollowGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowGroupModel.m; sourceTree = "<group>"; };
+		24E842F01BF3A0AB008F8ED5 /* ChineseInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseInclude.h; sourceTree = "<group>"; };
+		24E842F11BF3A0AB008F8ED5 /* ChineseInclude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseInclude.m; sourceTree = "<group>"; };
+		24E842F21BF3A0AB008F8ED5 /* ChineseToPinyinResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyinResource.h; sourceTree = "<group>"; };
+		24E842F31BF3A0AB008F8ED5 /* ChineseToPinyinResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyinResource.m; sourceTree = "<group>"; };
+		24E842F41BF3A0AB008F8ED5 /* HanyuPinyinOutputFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanyuPinyinOutputFormat.h; sourceTree = "<group>"; };
+		24E842F51BF3A0AB008F8ED5 /* HanyuPinyinOutputFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanyuPinyinOutputFormat.m; sourceTree = "<group>"; };
+		24E842F61BF3A0AB008F8ED5 /* NSString+PinYin4Cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin4Cocoa.h"; sourceTree = "<group>"; };
+		24E842F71BF3A0AB008F8ED5 /* NSString+PinYin4Cocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin4Cocoa.m"; sourceTree = "<group>"; };
+		24E842F81BF3A0AB008F8ED5 /* PinYin4Objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYin4Objc.h; sourceTree = "<group>"; };
+		24E842F91BF3A0AB008F8ED5 /* PinyinFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinFormatter.h; sourceTree = "<group>"; };
+		24E842FA1BF3A0AB008F8ED5 /* PinyinFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinFormatter.m; sourceTree = "<group>"; };
+		24E842FB1BF3A0AB008F8ED5 /* PinYinForObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYinForObjc.h; sourceTree = "<group>"; };
+		24E842FC1BF3A0AB008F8ED5 /* PinYinForObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinYinForObjc.m; sourceTree = "<group>"; };
+		24E842FD1BF3A0AB008F8ED5 /* PinyinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinHelper.h; sourceTree = "<group>"; };
+		24E842FE1BF3A0AB008F8ED5 /* PinyinHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinHelper.m; sourceTree = "<group>"; };
+		24E842FF1BF3A0AB008F8ED5 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		24E843081BF3A0D7008F8ED5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		24E843091BF3A163008F8ED5 /* UIView+MHCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MHCommon.h"; sourceTree = "<group>"; };
+		24E8430A1BF3A163008F8ED5 /* UIView+MHCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MHCommon.m"; sourceTree = "<group>"; };
+		24E8430C1BF3A183008F8ED5 /* CustomSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSearchViewController.h; sourceTree = "<group>"; };
+		24E8430D1BF3A183008F8ED5 /* CustomSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSearchViewController.m; sourceTree = "<group>"; };
+		24E8430F1BF3A197008F8ED5 /* SearchResultHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultHandle.h; sourceTree = "<group>"; };
+		24E843101BF3A197008F8ED5 /* SearchResultHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultHandle.m; sourceTree = "<group>"; };
+		24E843121BF3A224008F8ED5 /* NSMutableArray+FilterElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FilterElement.h"; sourceTree = "<group>"; };
+		24E843131BF3A224008F8ED5 /* NSMutableArray+FilterElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+FilterElement.m"; sourceTree = "<group>"; };
+		24E843151BF3A2CF008F8ED5 /* FollwTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FollwTableViewCell.xib; sourceTree = "<group>"; };
+		AD4985561BF9AF92003DE42B /* body_pic_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body_pic_head.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24E842BD1BF39FCE008F8ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24E842B71BF39FCE008F8ED5 = {
+			isa = PBXGroup;
+			children = (
+				24E842C21BF39FCE008F8ED5 /* 查找联系人 */,
+				24E842C11BF39FCE008F8ED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24E842C11BF39FCE008F8ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24E842C01BF39FCE008F8ED5 /* 查找联系人.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24E842C21BF39FCE008F8ED5 /* 查找联系人 */ = {
+			isa = PBXGroup;
+			children = (
+				24E842DA1BF3A012008F8ED5 /* Category */,
+				24E842DB1BF3A012008F8ED5 /* Class */,
+				24E842E11BF3A012008F8ED5 /* Lib */,
+				24E842C61BF39FCE008F8ED5 /* AppDelegate.h */,
+				24E842C71BF39FCE008F8ED5 /* AppDelegate.m */,
+				24E842CC1BF39FCE008F8ED5 /* Main.storyboard */,
+				24E842CF1BF39FCE008F8ED5 /* Assets.xcassets */,
+				24E842D11BF39FCE008F8ED5 /* LaunchScreen.storyboard */,
+				24E842D41BF39FCE008F8ED5 /* Info.plist */,
+				24E842C31BF39FCE008F8ED5 /* Supporting Files */,
+			);
+			path = "查找联系人";
+			sourceTree = "<group>";
+		};
+		24E842C31BF39FCE008F8ED5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24E842C41BF39FCE008F8ED5 /* main.m */,
+				24E843081BF3A0D7008F8ED5 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24E842DA1BF3A012008F8ED5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				24E843121BF3A224008F8ED5 /* NSMutableArray+FilterElement.h */,
+				24E843131BF3A224008F8ED5 /* NSMutableArray+FilterElement.m */,
+				24E843091BF3A163008F8ED5 /* UIView+MHCommon.h */,
+				24E8430A1BF3A163008F8ED5 /* UIView+MHCommon.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		24E842DB1BF3A012008F8ED5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				24E842DC1BF3A012008F8ED5 /* Controller */,
+				24E842DF1BF3A012008F8ED5 /* Model */,
+				24E842E01BF3A012008F8ED5 /* View */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		24E842DC1BF3A012008F8ED5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24E8430C1BF3A183008F8ED5 /* CustomSearchViewController.h */,
+				24E8430D1BF3A183008F8ED5 /* CustomSearchViewController.m */,
+				24E842E31BF3A03E008F8ED5 /* UserFollowSearchResultViewController.h */,
+				24E842E41BF3A03E008F8ED5 /* UserFollowSearchResultViewController.m */,
+				24E842DD1BF3A012008F8ED5 /* UserFollowViewController.h */,
+				24E842DE1BF3A012008F8ED5 /* UserFollowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24E842DF1BF3A012008F8ED5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24E8430F1BF3A197008F8ED5 /* SearchResultHandle.h */,
+				24E843101BF3A197008F8ED5 /* SearchResultHandle.m */,
+				24E842EC1BF3A07F008F8ED5 /* FollowGroupModel.h */,
+				24E842ED1BF3A07F008F8ED5 /* FollowGroupModel.m */,
+				24E842E91BF3A074008F8ED5 /* FollowModel.h */,
+				24E842EA1BF3A074008F8ED5 /* FollowModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24E842E01BF3A012008F8ED5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD4985561BF9AF92003DE42B /* body_pic_head.png */,
+				24E842E61BF3A05B008F8ED5 /* FollwTableViewCell.h */,
+				24E842E71BF3A05B008F8ED5 /* FollwTableViewCell.m */,
+				24E843151BF3A2CF008F8ED5 /* FollwTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24E842E11BF3A012008F8ED5 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				24E842EF1BF3A0AB008F8ED5 /* PinYin */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		24E842EF1BF3A0AB008F8ED5 /* PinYin */ = {
+			isa = PBXGroup;
+			children = (
+				24E842F01BF3A0AB008F8ED5 /* ChineseInclude.h */,
+				24E842F11BF3A0AB008F8ED5 /* ChineseInclude.m */,
+				24E842F21BF3A0AB008F8ED5 /* ChineseToPinyinResource.h */,
+				24E842F31BF3A0AB008F8ED5 /* ChineseToPinyinResource.m */,
+				24E842F41BF3A0AB008F8ED5 /* HanyuPinyinOutputFormat.h */,
+				24E842F51BF3A0AB008F8ED5 /* HanyuPinyinOutputFormat.m */,
+				24E842F61BF3A0AB008F8ED5 /* NSString+PinYin4Cocoa.h */,
+				24E842F71BF3A0AB008F8ED5 /* NSString+PinYin4Cocoa.m */,
+				24E842F81BF3A0AB008F8ED5 /* PinYin4Objc.h */,
+				24E842F91BF3A0AB008F8ED5 /* PinyinFormatter.h */,
+				24E842FA1BF3A0AB008F8ED5 /* PinyinFormatter.m */,
+				24E842FB1BF3A0AB008F8ED5 /* PinYinForObjc.h */,
+				24E842FC1BF3A0AB008F8ED5 /* PinYinForObjc.m */,
+				24E842FD1BF3A0AB008F8ED5 /* PinyinHelper.h */,
+				24E842FE1BF3A0AB008F8ED5 /* PinyinHelper.m */,
+				24E842FF1BF3A0AB008F8ED5 /* unicode_to_hanyu_pinyin.txt */,
+			);
+			path = PinYin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24E842BF1BF39FCE008F8ED5 /* 查找联系人 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E842D71BF39FCE008F8ED5 /* Build configuration list for PBXNativeTarget "查找联系人" */;
+			buildPhases = (
+				24E842BC1BF39FCE008F8ED5 /* Sources */,
+				24E842BD1BF39FCE008F8ED5 /* Frameworks */,
+				24E842BE1BF39FCE008F8ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "查找联系人";
+			productName = "查找联系人";
+			productReference = 24E842C01BF39FCE008F8ED5 /* 查找联系人.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24E842B81BF39FCE008F8ED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "大兵布莱恩特";
+				TargetAttributes = {
+					24E842BF1BF39FCE008F8ED5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 24E842BB1BF39FCE008F8ED5 /* Build configuration list for PBXProject "查找联系人" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24E842B71BF39FCE008F8ED5;
+			productRefGroup = 24E842C11BF39FCE008F8ED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24E842BF1BF39FCE008F8ED5 /* 查找联系人 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24E842BE1BF39FCE008F8ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E843071BF3A0AB008F8ED5 /* unicode_to_hanyu_pinyin.txt in Resources */,
+				AD4985571BF9AF92003DE42B /* body_pic_head.png in Resources */,
+				24E842D31BF39FCE008F8ED5 /* LaunchScreen.storyboard in Resources */,
+				24E843161BF3A2CF008F8ED5 /* FollwTableViewCell.xib in Resources */,
+				24E842D01BF39FCE008F8ED5 /* Assets.xcassets in Resources */,
+				24E842CE1BF39FCE008F8ED5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24E842BC1BF39FCE008F8ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E843061BF3A0AB008F8ED5 /* PinyinHelper.m in Sources */,
+				24E8430E1BF3A183008F8ED5 /* CustomSearchViewController.m in Sources */,
+				24E842C81BF39FCE008F8ED5 /* AppDelegate.m in Sources */,
+				24E842E81BF3A05B008F8ED5 /* FollwTableViewCell.m in Sources */,
+				24E842E51BF3A03E008F8ED5 /* UserFollowSearchResultViewController.m in Sources */,
+				24E842EB1BF3A074008F8ED5 /* FollowModel.m in Sources */,
+				24E843011BF3A0AB008F8ED5 /* ChineseToPinyinResource.m in Sources */,
+				24E843021BF3A0AB008F8ED5 /* HanyuPinyinOutputFormat.m in Sources */,
+				24E842E21BF3A012008F8ED5 /* UserFollowViewController.m in Sources */,
+				24E843051BF3A0AB008F8ED5 /* PinYinForObjc.m in Sources */,
+				24E843001BF3A0AB008F8ED5 /* ChineseInclude.m in Sources */,
+				24E843111BF3A197008F8ED5 /* SearchResultHandle.m in Sources */,
+				24E843031BF3A0AB008F8ED5 /* NSString+PinYin4Cocoa.m in Sources */,
+				24E843141BF3A224008F8ED5 /* NSMutableArray+FilterElement.m in Sources */,
+				24E842EE1BF3A07F008F8ED5 /* FollowGroupModel.m in Sources */,
+				24E843041BF3A0AB008F8ED5 /* PinyinFormatter.m in Sources */,
+				24E8430B1BF3A163008F8ED5 /* UIView+MHCommon.m in Sources */,
+				24E842C51BF39FCE008F8ED5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24E842CC1BF39FCE008F8ED5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24E842CD1BF39FCE008F8ED5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24E842D11BF39FCE008F8ED5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24E842D21BF39FCE008F8ED5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24E842D51BF39FCE008F8ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24E842D61BF39FCE008F8ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24E842D81BF39FCE008F8ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/查找联系人/PrefixHeader.pch";
+				INFOPLIST_FILE = "查找联系人/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.123.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		24E842D91BF39FCE008F8ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/查找联系人/PrefixHeader.pch";
+				INFOPLIST_FILE = "查找联系人/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.123.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24E842BB1BF39FCE008F8ED5 /* Build configuration list for PBXProject "查找联系人" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E842D51BF39FCE008F8ED5 /* Debug */,
+				24E842D61BF39FCE008F8ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24E842D71BF39FCE008F8ED5 /* Build configuration list for PBXNativeTarget "查找联系人" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E842D81BF39FCE008F8ED5 /* Debug */,
+				24E842D91BF39FCE008F8ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24E842B81BF39FCE008F8ED5 /* Project object */;
+}
